@@ -8,18 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		68226CAAD598B5BA5C8FEBFC /* Pods_Animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00779A7AC41D3C5C43E1B846 /* Pods_Animation.framework */; };
+		FE65F9D52334CAB000A1EA4E /* 9512-boat.json in Resources */ = {isa = PBXBuildFile; fileRef = FE65F9D42334CAB000A1EA4E /* 9512-boat.json */; };
 		FEA5AEFB23338D6B000C081E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5AEFA23338D6B000C081E /* AppDelegate.swift */; };
 		FEA5AEFD23338D6B000C081E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA5AEFC23338D6B000C081E /* ViewController.swift */; };
 		FEA5AF0023338D6B000C081E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA5AEFE23338D6B000C081E /* Main.storyboard */; };
 		FEA5AF0223338D74000C081E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA5AF0123338D74000C081E /* Assets.xcassets */; };
 		FEA5AF0523338D74000C081E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA5AF0323338D74000C081E /* LaunchScreen.storyboard */; };
-		FEA5AF0D23339039000C081E /* 9512-boat.json in Resources */ = {isa = PBXBuildFile; fileRef = FEA5AF0C23339039000C081E /* 9512-boat.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00779A7AC41D3C5C43E1B846 /* Pods_Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58CFC31979A55F965A5F356 /* Pods-Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation.release.xcconfig"; path = "Target Support Files/Pods-Animation/Pods-Animation.release.xcconfig"; sourceTree = "<group>"; };
 		BC9A846A7497F56B8B87CC27 /* Pods-Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation.debug.xcconfig"; path = "Target Support Files/Pods-Animation/Pods-Animation.debug.xcconfig"; sourceTree = "<group>"; };
+		FE65F9D42334CAB000A1EA4E /* 9512-boat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9512-boat.json"; sourceTree = "<group>"; };
 		FEA5AEF723338D6B000C081E /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA5AEFA23338D6B000C081E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA5AEFC23338D6B000C081E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		FEA5AF0123338D74000C081E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA5AF0423338D74000C081E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA5AF0623338D74000C081E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FEA5AF0C23339039000C081E /* 9512-boat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "9512-boat.json"; path = "../../../Downloads/9512-boat.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			children = (
 				FEA5AEFA23338D6B000C081E /* AppDelegate.swift */,
 				FEA5AEFC23338D6B000C081E /* ViewController.swift */,
-				FEA5AF0C23339039000C081E /* 9512-boat.json */,
+				FE65F9D42334CAB000A1EA4E /* 9512-boat.json */,
 				FEA5AEFE23338D6B000C081E /* Main.storyboard */,
 				FEA5AF0123338D74000C081E /* Assets.xcassets */,
 				FEA5AF0323338D74000C081E /* LaunchScreen.storyboard */,
@@ -153,7 +153,7 @@
 			files = (
 				FEA5AF0523338D74000C081E /* LaunchScreen.storyboard in Resources */,
 				FEA5AF0223338D74000C081E /* Assets.xcassets in Resources */,
-				FEA5AF0D23339039000C081E /* 9512-boat.json in Resources */,
+				FE65F9D52334CAB000A1EA4E /* 9512-boat.json in Resources */,
 				FEA5AF0023338D6B000C081E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
